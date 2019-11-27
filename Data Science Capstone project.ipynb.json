@@ -1,0 +1,51 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Introduction/Business Problem\n",
+    "\n",
+    "London is a highly populous city aswell as a culinary hub, with consumer spending on eating out equalling around £84bn last year. The opportunity for existing restauranters or entreprenuers to take a slice of the market is clear. Despite a large market, opening a restaurant can be a difficult decision as many factors can determine whether this decision is a profitable one. It might be tempting to assume that the more dense an area, the more potential there is for revenue. It could also mean that there is more competition, giving a larger share of the revenue. \n",
+    "\n",
+    "We will look to determine whether population density is a factor in how many restaurants are in that area, and explore what factors might affect the popularity of restaurants in the area. We use population density rather than population as areas are often arbitry and size and this would not be reflected in the results. We will need to explore a way to come up with a de facto measure of population/number of visitors, and compare this against population density. If a dense area seems to be highly popular, then it will make sense to target these areas. However, it is a well known that more densely populated areas result in high land costs. We will use the correlation between population density, land costs and popularity to see whether there is a correlation and if so, which areas in London to target. \n",
+    "\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Data\n",
+    "\n",
+    "We will be using open source information on London Boroughs, avaialble on wikipedia, to give the location of each borough and the corresponding population density. \n",
+    "\n",
+    "We will use the Foursquare API to get restaurants within each Borough (or with the appropriate approximation). \n",
+    "\n",
+    "The foursquare API will only allow us to get limited information about each restuarant, without being an Authorised user for each one. For example, we will not be able to get the number of visits for each resaLuckily, we are able to get a count of the number of 'likes'"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.7.4"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 2
+}
